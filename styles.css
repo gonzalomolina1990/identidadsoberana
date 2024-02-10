@@ -34,12 +34,7 @@ section{
 
 }
 
-.downloads{
-    background-color: #02162b !important;
-    color: #FFF !important;
-    margin: 2rem 0rem;
-    padding: 3rem 0rem;
-}
+
 
 .footer {
     background-color: #333;
@@ -85,6 +80,13 @@ section{
   .phone-icon {
     background-color: #007bff !important; /* Color de fondo del botón de teléfono */
   }
+
+  .downloads{
+    background-color: #02162b !important;
+    color: #FFF !important;
+    margin: 2rem 0rem !important;
+    margin-left: 0;
+}
 
 @media screen and (max-width: 300px) {
     h5, p {
