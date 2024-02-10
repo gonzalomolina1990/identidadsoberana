@@ -17,7 +17,7 @@ section{
     padding-left: 1rem  !important;
 }
 
-#section5 #section6{
+#section5 #section6 {
     margin-bottom: 0rem !important;
     padding-left: 0rem  !important;
 }
@@ -41,6 +41,12 @@ section{
 
 #section4 ul li{
     padding-bottom: 2rem  !important;
+}
+
+#section6{
+    padding-left: 0rem  !important;
+    padding: 0px !important;
+    margin-bottom: 0px !important;
 }
 
 #section1{
