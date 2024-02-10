@@ -1,14 +1,109 @@
 body{
-    background-color: #02162b;
-    color: #FFF;
-    font-family: 'Archer', sans-serif;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    background-color: #FFF !important;
+    color: #02162b !important;
+    font-family: 'Archer', sans-serif !important;
+
 }
 
-a{
-    color: #FFF;
+
+section{
+    margin-bottom: 2rem !important;
+    padding-left: 1rem  !important;
+}
+
+#section5{
+    margin-bottom: 0rem !important;
+    padding-left: 0rem  !important;
+}
+
+
+#section1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #02162b !important;
+    color: #FFF !important;
+}
+
+.carousel-caption{
+    display: block !important;
+    background-color: rgba(2, 22, 43, .75);
+
+}
+
+.downloads{
+    background-color: #02162b !important;
+    color: #FFF !important;
+    margin: 2rem 0rem;
+    padding: 3rem 0rem;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+  }
+  @media (max-width: 576px) {
+    .social-icons {
+      margin-top: 10px;
+    }
+  }
+
+  .floating-contact-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Asegurar que esté por encima del resto del contenido */
+  }
+  .floating-contact-btn a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366; /* Color de fondo del botón de WhatsApp */
+    color: #fff; /* Color del icono */
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  .floating-contact-btn a:hover {
+    background-color: #128C7E; /* Cambio de color al pasar el mouse */
+  }
+  .phone-icon {
+    background-color: #007bff !important; /* Color de fondo del botón de teléfono */
+  }
+
+@media screen and (max-width: 300px) {
+    h5, p {
+      font-size: 70%; /* Reducir el tamaño del texto a la mitad */
+    }
+  }
+
+  .btn-check:active+.btn-outline-primary, .btn-check:checked+.btn-outline-primary, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show, .btn-outline-primary:active{
+    color: #02162b !important;
+    background-color: #05f1ff !important;
+    border-color: #05f1ff !important;
+  }
+
+  .btn-outline-primary {
+    border-color: #05f1ff !important;
+    color: #05f1ff !important;
+
+}
+
+.btn-primary.focus {
+    box-shadow: 0 0 0 0.25rem rgba(5, 241, 255, 0.5) !important;
 }

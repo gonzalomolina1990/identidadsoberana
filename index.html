@@ -6,18 +6,276 @@
     <title>Identidad Soberana - Lista "Libres y Soberanos"</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.cdnfonts.com/css/archer-2" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <img src="img/perfil.png" alt="libres_soberanistas" />
-                <h1>Sitio en construcción</h1>
-                <a href="mailto:libertadysoberania.is@gmail.com"><h3>Contactanos</h3></a>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">#LibreSoberanistas 999</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre Salle</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Propuestas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Libertad</a></li>
+                  <li><a class="dropdown-item" href="#">Soberanía</a></li>
+                  <li><a class="dropdown-item" href="#">Salud</a></li>
+                  <li><a class="dropdown-item" href="#">Economía</a></li>
+                  <li><a class="dropdown-item" href="#">Seguridad</a></li>
+                  <li><a class="dropdown-item" href="#">Educación</a></li>
+                </ul>
+              </li>
+
+            </ul>
+
+          </div>
         </div>
-    </div>
+      </nav>
+
+      <div class="floating-contact-btn">
+        <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="tel:+123456789" class="phone-icon" target="_blank"><i class="fas fa-phone"></i></a>
+      </div>
+
+      <section id="section1" class=" py-4">
+
+        <h1 class="mx-2">
+            Somos la lista 999 "Libertad y Soberanía"
+        </h1>
+
+        <img src="/img/perfil.png" class="img-fluid" alt="...">
+
+
+        <h3 class="mx-2">Competimos en las elecciones de este año por llevar a Gustavo Salle a la Presidencia o al Parlamento</h3>
+
+
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+            <label class="btn btn-outline-primary" for="btnradio1">Quiero participar</label>
+          
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio2">Tengo propuestas</label>
+          
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio3">Quiero donar</label>
+        </div>
+
+      </section>
+
+      <section id="section2">
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" id="carousel1">
+                <img src="/img/hero1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-sm-block">
+                  <h5>Somos Libres y Soberanistas</h5>
+                  <p>Estamos en contra de la implementación de la Agenda 2030</p>
+                </div>
+              </div>
+              <div class="carousel-item" id="carousel2">
+                <img src="/img/hero2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-sm-block">
+                  <h5>Apoyamos a Gustavo</h5>
+                  <p>40 años de trayectoria en Derecho Penal, al servicio de la causa</p>
+                </div>
+              </div>
+              <div class="carousel-item" id="carousel3">
+                <img src="/img/hero3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-sm-block">
+                  <h5>Siempre estuvimos</h5>
+                  <p>Somos simples militantes de a pie que servimos a la patria</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+      
+      <section id="section3">
+
+        <h1 class="mx-3">Nuestros ejes temáticos</h1>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Libertad
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                    <h5>¿Qué hace un país para ser liberal manteniendo la soberanía?</h5>
+                    <ul>
+                        <li>Reduce al mínimo indispensable el estado: sólo para servicios básicos.</li>
+                        <li>No pone tantas trabas e impuestos al que quiere abrir una empresa.</li>
+                        <li>Fomenta la inversión extranjera sólo si  no implica la devastación del ambiente</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Soberanía
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                    <h5>¿Qué es la Agenda 2030 y por qué estamos en contra?</h5>
+                    <ul>
+                        <li>Es un plan de las elites financieras para esclavizar al ser humano.</li>
+                        <li>La ONU es controlada por privados con fines de lucro y control total.</li>
+                        <li>La plandemia fue un ensayo para ver hasta dónde somos capaces de obedecer.</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Salud
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                    <h5>¿Cómo maneja la salud un país soberano?</h5>
+ 
+                    <ul>
+                        <li>Sin dejarse imponer directivas desde organismos internacionales corruptos.</li>
+                        <li>Impulsando políticas de natalidad para incentivar a la clase trabajadora.</li>
+                        <li>No ofreciendo a su población como conejillos de las farmaceúticas.</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                Economía
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+              <div class="accordion-body">
+                  <h5>¿Cómo maneja la economía un país soberano?</h5>
+
+                  <ul>
+                      <li>Eliminando el modelo neo-colonial de economía reprimarizada.</li>
+                      <li>Recortando el gasto público superfluo como los cargos de confianza.</li>
+                      <li>Teniendo soberanía alimentaria para evitar desabastecimientos.</li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                Seguridad
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+              <div class="accordion-body">
+                  <h5>¿Cómo maneja la seguridad un país soberano?</h5>
+
+                  <ul>
+                      <li>Sumando las Fuerzas Armadas a la Policía para aumentar los efectivos.</li>
+                      <li>Haciendo cárceles según delito con real autoridad y rehabilitación.</li>
+                      <li>Internación compulsiva de adictos.s</li>
+                      <li>Legítima defensa para el trabajador.</li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                Educación
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+              <div class="accordion-body">
+                  <h5>¿Cómo maneja la educación un país soberano?</h5>
+
+                  <ul>
+                      <li>No copiando modelos extranjeros que buscan generar tontos útiles.</li>
+                      <li>ILlevando la educación terciaria a cada rincón del país. Real descentralización</li>
+                      <li>Reforzando el real aprendizaje de matemáticas y lengua a todo nivel.</li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+
+      </section>
+
+      <section id="section4">
+        <h1>Somos una lista del partido Identidad Soberana</h1>
+        <div class="downloads">
+            <h3 class="d-flex flex-column center align-items-center">Documentos del partido para descargar</h3>
+            <ul class="d-flex flex-column center align-items-center">
+                <li>Acta Fundacional de Identidad Soberana</li>
+                <li>Principios de Identidad Soberana</li>
+                <li>Carta Orgánica de Identidad Soberana</li>
+                <li>Hoja de Afiliación al lema "Libertad y Soberanía - Lista 999"</li>
+            </ul>
+        </div>
+        
+      </section>
+
+      <section id="section5">
+
+        <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <p>&copy; 2024 Libertad y Soberanía. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6">
+                  <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+      </section>
+
+
     
 </body>
 </html>
