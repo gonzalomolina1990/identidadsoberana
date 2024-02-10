@@ -6,6 +6,7 @@ body{
 }
 
 
+
 section{
     margin-bottom: 2rem !important;
     padding-left: 1rem  !important;
@@ -16,6 +17,26 @@ section{
     padding-left: 0rem  !important;
 }
 
+.btn-primary {
+    background-color: #02162b !important;
+    border-color: #02162b !important;
+}
+
+#section4{
+    padding-left: 0rem  !important;
+}
+
+#section4 h1, #section4 h3{
+    padding-left: 2rem  !important;
+}
+
+#section4 ul{
+    padding-left: 2rem  !important;
+}
+
+#section4 ul li{
+    padding-bottom: 2rem  !important;
+}
 
 #section1{
     text-align: center;
