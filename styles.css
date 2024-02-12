@@ -10,6 +10,17 @@ body{
     margin-right: 1rem;
 }
 
+.item{
+  color: 02162b;
+  font-size: 3rem;
+  padding: 2rem;
+  opacity: 0.8;
+  background: repeating-linear-gradient( -45deg, #0000002f, #0000002f 10px, #05f1ff 10px, #05f1ff 25px );
+  background-color: #05f1ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 section{
