@@ -258,18 +258,18 @@
             <div class="row justify-content-center">
               <div class="col">
                 <h2 class="mb-4">Queremos saber tu opinión!!</h2>
-                <form>
+                <form  action="https://formspree.io/f/mayroekj" method="POST">
                   <div class="mb-3">
-                    <label for="nombre" class="form-label">Nombre</label>
+                    <label for="nombre" name="name" class="form-label">Nombre</label>
                     <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre">
                   </div>
                   <div class="mb-3">
                     <label for="email" class="form-label">Correo Electrónico</label>
-                    <input type="email" class="form-control" id="email" placeholder="Escribe tu correo electrónico">
+                    <input type="email" name="email" class="form-control" id="email" placeholder="Escribe tu correo electrónico">
                   </div>
                   <div class="mb-3">
                     <label for="mensaje" class="form-label">Mensaje</label>
-                    <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
+                    <textarea class="form-control" id="mensaje" name="message" rows="5" placeholder="Escribe tu mensaje"></textarea>
                   </div>
                   <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>
