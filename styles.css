@@ -14,14 +14,68 @@ body{
   color: 02162b;
   font-size: 3rem;
   padding: 2rem;
-  opacity: 0.8;
-  background: repeating-linear-gradient( -45deg, #0000002f, #0000002f 10px, #05f1ff 10px, #05f1ff 25px );
-  background-color: #05f1ff;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.libertad{
+  opacity: 0.8;
+  background: repeating-linear-gradient( -45deg, #331a3831, #331a3831 10px, #331a38 10px, #331a38 25px );
+  background-color: #331a38;
+  color: #FFF;
+}
+
+.soberania{
+  opacity: 0.8;
+  background: repeating-linear-gradient( -45deg, #331a3831, #331a3831 10px, #331a38 10px, #331a38 25px );
+  background-color: #331a38;
+  color: #FFF;
+}
+
+.salud{
+  opacity: 0.8;
+  background: repeating-linear-gradient( -45deg, #01fe8831, #01fe8831 10px, #01fe87 10px, #01fe87 25px );
+  background-color: #01fe87;
+}
+
+.economia{
+  opacity: 0.8;
+  background: repeating-linear-gradient( -45deg, #eaff0031, #eaff0031 10px, #ebff00 10px, #ebff00 25px );
+  background-color: #ebff00;
+}
+
+.educacion{
+  opacity: 0.8;
+  background: repeating-linear-gradient( -45deg, #eaff0031, #eaff0031 10px, #ff015b 10px, #ff015b 25px );
+  background-color: #ff015b;
+}
+
+.seguridad{
+  opacity: 0.8;
+  background: repeating-linear-gradient( -45deg, #0000002f, #0000002f 10px, #05f1ff 10px, #05f1ff 25px );
+  background-color: #05f1ff;
+}
+
+.about{
+  opacity: 0.8;
+  background: repeating-linear-gradient( -45deg, #02162b2a, #02162b2a 10px, #02162b 10px, #02162b 25px );
+  background-color: #02162b;
+  color: #FFF;
+}
+
+
+.perfil{
+    background-image: url(img/about.jpg);
+    height: 20rem;
+    background-size: cover;
+
+}
+
+.perfilbio{
+  font-size: 3rem;
+  text-align: center;
+}
 
 section{
     margin-bottom: 2rem !important;
