@@ -13,6 +13,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
 
 </head>
 <body>
@@ -68,17 +72,62 @@
 
 
         <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+            <input type="radio" class="btn-check" data-bs-toggle="modal" data-bs-target="#exampleModalCenter" name="btnradio" id="btnradio1" autocomplete="off" checked>
             <label class="btn btn-outline-primary" for="btnradio1">Quiero participar</label>
+            <a href="#indexform" type="button">
+              <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+              <label class="btn btn-outline-primary" for="btnradio2">Tengo propuestas</label>
+            </a>
           
-            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-            <label class="btn btn-outline-primary" for="btnradio2">Tengo propuestas</label>
-          
-            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" data-bs-toggle="modal" data-bs-target="#example2ModalCenter" autocomplete="off">
             <label class="btn btn-outline-primary" for="btnradio3">Quiero donar</label>
         </div>
 
       </section>
+
+
+
+
+      <!-- Modal 1-->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Apareció el Patriota!! </h5>
+            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Muchas gracias por comprometerte!! No es para cualquiera la política y se necesitan guerreros en esta lucha por la humanidad. Por favor ponte en contacto con nosotros a Libertadysoberania.is@gmail.com
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+          <!-- Modal 2-->
+          <div class="modal fade" id="example2ModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="example2ModalLongTitle">Muchas gracias por tu colaboración</h5>
+                  <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Para un partido como el nuestro cualquier colaboración es más que bienvenida ya que no tenemos financiamiento alguno. Por favor ponte en contacto con nosotros a Libertadysoberania.is@gmail.com para coordinar
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      
 
       <section id="section2">
 
@@ -268,7 +317,7 @@
         <div class="container mt-5">
             <div class="row justify-content-center">
               <div class="col">
-                <h2 class="mb-4">Queremos saber tu opinión!!</h2>
+                <h2 class="mb-4" id="#indexform">Queremos saber tu opinión!!</h2>
                 <form  action="https://formspree.io/f/mayroekj" method="POST">
                   <div class="mb-3">
                     <label for="nombre" name="name" class="form-label">Nombre</label>
