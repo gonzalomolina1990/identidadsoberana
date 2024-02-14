@@ -35,31 +35,31 @@ body{
 
 .salud{
   opacity: 0.8;
-  background: repeating-linear-gradient( -45deg, #01fe8831, #01fe8831 10px, #01fe87 10px, #01fe87 25px );
+  background: repeating-linear-gradient( -45deg, #02ca6d65, #02ca6d65 10px, #01fe87 10px, #01fe87 25px );
   background-color: #01fe87;
 }
 
 .economia{
   opacity: 0.8;
-  background: repeating-linear-gradient( -45deg, #eaff0031, #eaff0031 10px, #ebff00 10px, #ebff00 25px );
+  background: repeating-linear-gradient( -45deg, #a5b40331, #a5b40331 10px, #ebff00 10px, #ebff00 25px );
   background-color: #ebff00;
 }
 
 .educacion{
   opacity: 0.8;
-  background: repeating-linear-gradient( -45deg, #eaff0031, #eaff0031 10px, #ff015b 10px, #ff015b 25px );
+  background: repeating-linear-gradient( -45deg, #9b013742, #9b013742 10px, #ff015b 10px, #ff015b 25px );
   background-color: #ff015b;
 }
 
 .seguridad{
   opacity: 0.8;
-  background: repeating-linear-gradient( -45deg, #0000002f, #0000002f 10px, #05f1ff 10px, #05f1ff 25px );
+  background: repeating-linear-gradient( -45deg, #02d7e275, #02d7e275 10px, #05f1ff 10px, #05f1ff 25px );
   background-color: #05f1ff;
 }
 
 .about{
   opacity: 0.8;
-  background: repeating-linear-gradient( -45deg, #02162b2a, #02162b2a 10px, #02162b 10px, #02162b 25px );
+  background: repeating-linear-gradient( -45deg, #010a14a6, #010a14a6 10px, #02162b 10px, #02162b 25px );
   background-color: #02162b;
   color: #FFF;
 }
