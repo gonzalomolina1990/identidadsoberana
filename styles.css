@@ -75,6 +75,9 @@ body{
 .perfilbio{
   font-size: 3rem;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 section{
