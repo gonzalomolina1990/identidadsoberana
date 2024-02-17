@@ -57,12 +57,7 @@ body{
   background-color: #05f1ff;
 }
 
-.about{
-  opacity: 0.8;
-  background: repeating-linear-gradient( -45deg, #010a14a6, #010a14a6 10px, #02162b 10px, #02162b 25px );
-  background-color: #02162b;
-  color: #FFF;
-}
+
 
 
 .perfil{
